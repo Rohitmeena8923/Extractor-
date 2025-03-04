@@ -13,7 +13,7 @@ scraper = cloudscraper.create_scraper()
 thumb = "thumb.jpg" if subprocess.getstatusoutput(f"wget '{Config.THUMB_URL}' -O 'thumb.jpg'")[0] == 0 else None
 IST = pytz.timezone('Asia/Kolkata')  
 
-@bot.on_message(filters.command("status") & filters.private)
+@bot.on_message(filters.command("bhumihar") & filters.private)
 async def status_command(_, m):
     if m.chat.id not in Config.ADMIN_ID:
         await m.reply_text("You are not authorized to use this command.")
