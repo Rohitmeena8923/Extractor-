@@ -1,12 +1,12 @@
 import os
 
 class Config(object):
-    BOT_TOKEN = "7912605698:AAF9ci_dUvTKD9A_WZcjrGD2. EDIT HERE. "
-    API_ID = 271 EDIT HERE
-    API_HASH = "e166ccc508386322f47a EDIT HERE"
-    ADMIN = '752140,59194'.split(',')
+    BOT_TOKEN = "7615498369:AAESBbCv8XHMB2jDqB3iK9VPeeGAai04mxM. EDIT HERE. "
+    API_ID = 27775431 EDIT HERE
+    API_HASH = "b70bb1d45a1d05236671d4cc615e40f9 EDIT HERE"
+    ADMIN = '6414266397'.split(',')
     ADMIN_ID = [int(id) for id in ADMIN]
-    DB_URL = "mongodb+srv://n8360392852:JMXqsP0puz9qwgBe@cluster0.ce0ca.mongodb EDIT HERE  "
+    DB_URL = "mongodb+srv://Rohitmeena64:Ajmeer234590577@cluster0.mae8oyn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0 EDIT HERE  "
     DB_NAME = "WARRIOR_EXTRACTOR"
     TXT_LOG = -10023125
     AUTH_LOG = -10023802
